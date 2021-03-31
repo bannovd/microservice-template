@@ -40,17 +40,11 @@ Database::Database()
 
 void Database::loadEnvVariables()
 {
-    //m_dbhost = getenv("DATABASE_HOST");
-    //m_dbport = atoi(getenv("DATABASE_PORT"));
-    //m_dbname = getenv("DATABASE_NAME");
-    //m_dbuser = getenv("DATABASE_USER");
-    //m_dbpass = getenv("DATABASE_PASSWORD");
-
-    m_dbhost = "localhost";
-    m_dbport = 5432;
-    m_dbname = "auth";
-    m_dbuser = "postgres";
-    m_dbpass = "postgres";
+    m_dbhost = getenv("DATABASE_HOST");
+    m_dbport = atoi(getenv("DATABASE_PORT"));
+    m_dbname = getenv("DATABASE_NAME");
+    m_dbuser = getenv("DATABASE_USER");
+    m_dbpass = getenv("DATABASE_PASSWORD");
 }
 
 
