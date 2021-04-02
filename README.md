@@ -1,2 +1,2 @@
-# microservice-template
-Microservice C++ template with POCO lib
+# Microservice template
+Microservice C++ template used POCO lib
